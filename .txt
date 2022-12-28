@@ -1,0 +1,302 @@
+exercicio de JS
+Aluno: Flávio de Souza Santos
+
+EX 01
+
+var sb = parseFloat(prompt("digite o salario: "));
+var sr = sb + sb * 0.09 - sb * 0.065;
+console.log("o valor do salario eh: " + sr + "R$")
+
+EX 02
+
+var sf = parseFloat(prompt("valor do salario: "));
+var vendas = parseInt(prompt("valor total de vendas no mes: "));
+var st = sf + vendas * 0.15;
+console.log("renda: " + st + "R$")
+
+EX 03
+
+var idade = parseInt(prompt("digite a idade: "));
+var idias = idade * 365;
+console.log("idade em dias: " + idias)
+
+EX 04
+
+var idade = parseInt(prompt("digite a idade: "));
+if (idade >= 18){
+    console.log("de maior")
+}
+else{
+    console.log("de menor")
+}
+
+EX 05
+
+var mes = parseInt(prompt("digite o mes"));
+switch(mes){
+    case 1:
+        console.log("janeiro")
+	break;
+    case 2:
+        console.log("fevereiro")
+	break;
+    case 3:
+        console.log("março")
+	break;
+    case 4:
+        console.log("abril")
+	break;
+    case 5:
+        console.log("maio")
+	break;
+    case 6:
+        console.log("junho")
+	break;
+    case 7:
+        console.log("julho")
+	break;
+    case 8:
+        console.log("agosto")
+	break;
+    case 9:
+        console.log("setembro")
+	break;
+    case 10:
+        console.log("outubro")
+	break;
+    case 11:
+        console.log("novembro")
+	break;
+    case 12:
+        console.log("dezembro")
+	break;
+    default:
+	console.log("nao existe mês com esse numero")
+	break;
+}
+
+EX 06
+
+var idade = parseInt(prompt("digite a idade: "));
+if ((idade >= 5) && (idade <= 7)){
+    console.log("infantil A")
+}
+else if ((idade >= 8) && (idade <= 10)){
+    console.log("infantil B")
+}
+else if ((idade >= 11) && (idade <= 13)){
+    console.log("Juvenil A")
+}
+else if ((idade >= 14) && (idade <= 17)){
+    console.log("Juvenil B")
+}
+else if ((idade >= 18)){
+    console.log("Sênior")
+}else{
+    console.log("idade nao permitida")
+}
+
+EX 07
+
+var v1 = parseInt(prompt("valor 1"));
+var v2 = parseInt(prompt("valor 2")); 
+var v3 = parseInt(prompt("valor 3")); 
+var op = parseInt(prompt("opção"));
+var max, med, min;
+
+if ((v1 > v2) && (v2 > v3)){
+    max = v1;
+    med = v2;
+    min = v3;
+}
+else if ((v1 > v3) && (v3 > v2)){
+    max = v1;
+    med = v3;
+    min = v2;
+}
+else if ((v2 > v1) && (v1 > v3)){
+    max = v2;
+    med = v1;
+    min = v3;
+}
+else if ((v2 > v3) && (v3 > v1)){
+    max = v2;
+    med = v3;
+    min = v1;
+}
+else if ((v3 > v1) && (v1 > v2)){
+    max = v3;
+    med = v1;
+    min = v2;
+}
+else if ((v3 > v2) && (v2 > v1)){
+    max = v3;
+    med = v2;
+    min = v1;
+}
+
+switch(op){
+    case 1:
+	console.log(min + ", " + med + ", " + max)
+	break;
+    case 2:
+	console.log(max + ", " + med + ", " + min)
+	break;
+    case 3:
+	console.log(med + ", " + min + ", " + max)
+	break;
+}
+
+EX 08
+
+var i = 0;
+var op;
+var V1 = 0;
+var V2 = 0;
+var vp = 0;
+var vv = 0;
+while (i == 0){
+    op = prompt("opção: ")
+    switch(op){
+	case "P":
+	    V1 = parseFloat(prompt("valor: "));
+	    vp = vp + V1;
+	    break;
+	case "V":
+	    V2 = parseFloat(prompt("valor: "));
+	    vv = vv + V2;
+	    break;
+	default:
+	    i = 1;
+	    break;
+    }
+}
+V1 = vv + vp;
+console.log("valor total das vendas: " + V1 + " vendas a vista: " + vv + " vendas a prazo: " + vp)
+
+EX 09
+
+var c1 = c2 = c3 = c4 = n = b = 0, candidato;
+var i = 0;
+while (i == 0){
+    candidato = parseInt(prompt("digite o codigo do seu voto")); 
+    switch(candidato){
+	case 0:
+	    i = 1;
+	    break;
+	case 1:
+	    c1 = c1 + 1;
+	    break;
+	case 2:
+	    c2 = c2 + 1;
+	    break;
+	case 3:
+	    c3 = c3 + 1;
+	    break;
+	case 4:
+	    c4 = c4 + 1;
+	    break;
+	case 5:
+	    n = n + 1;
+	    break;
+	case 6:
+	    b = b + 1;
+	    break;
+    }
+}
+console.log("c1: " + c1 + ",c2: " + c2 + ",c3: " + c3 + ",c4: " + c4 + ",n: " + n + ",b: " + b)
+
+EX 10
+
+var n = parseInt(prompt("termo: "));
+var n1 = nt = 0;
+var n2 = 1;
+var i = 3;
+
+if (n == 1){
+    console.log(n1);
+} else if (n == 2){
+    console.log(n2);
+}else{
+    while (i <= n){
+        nt = n1 + n2;
+        n1 = n2;
+        n2 = nt;
+	i = i + 1;
+   }
+}
+console.log("o termo é: " + nt)
+
+EX 11
+
+var i = par = impar = 0;
+var n;
+while (i < 100) {
+    n = parseInt(prompt("numero: "));
+    if ((n % 2) == 0){
+	par = par + n;
+    }else{
+        impar = impar + n;
+    }
+    i = i + 1;
+}
+console.log("soma par: " + par)
+console.log("soma impar: " + impar)
+
+
+
+EX 12
+
+var v1, v2, v3, max, med, min;
+var i = 0;
+var nv;
+v1 = parseInt(prompt("numero "));
+v2 = parseInt(prompt("numero "));
+v3 = parseInt(prompt("numero "));
+
+if ((v1 > v2) && (v2 > v3)){
+    max = v1;
+    med = v2;
+    min = v3;
+}
+else if ((v1 > v3) && (v3 > v2)){
+    max = v1;
+    med = v3;
+    min = v2;
+}
+else if ((v2 > v1) && (v1 > v3)){
+    max = v2;
+    med = v1;
+    min = v3;
+}
+else if ((v2 > v3) && (v3 > v1)){
+    max = v2;
+    med = v3;
+    min = v1;
+}
+else if ((v3 > v1) && (v1 > v2)){
+    max = v3;
+    med = v1;
+    min = v2;
+}
+else if ((v3 > v2) && (v2 > v1)){
+    max = v3;
+    med = v2;
+    min = v1;
+}
+
+while (i < 97){
+    nv = parseInt(prompt("numero "));
+    if (nv > max){
+	min = med;
+	med = max;
+	max = nv;
+    }else if((nv > med) && (nv < max)){
+	min = med;
+	med = nv;
+    }else if((nv>min) && (nv < max) && (nv < med)){
+	min = nv;
+    }
+    i = i + 1;
+}
+console.log("maiores valores são: " + max + ", " + med + ", " + min)
