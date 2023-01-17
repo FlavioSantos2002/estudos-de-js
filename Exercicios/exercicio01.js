@@ -1,7 +1,7 @@
-exercicio de JS
-Aluno: Flávio de Souza Santos
+//exercicio de JS
+//Aluno: Flávio de Souza Santos
 
-EX 01
+//EX 01
 
 var sb = parseFloat(prompt("digite o salario: "));
 var sr = sb + sb * 0.09 - sb * 0.065;

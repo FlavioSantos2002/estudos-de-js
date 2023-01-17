@@ -1,4 +1,4 @@
-EX 02
+//EX 02
 
 var sf = parseFloat(prompt("valor do salario: "));
 var vendas = parseInt(prompt("valor total de vendas no mes: "));

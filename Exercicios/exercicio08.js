@@ -1,4 +1,4 @@
-EX 08
+//EX 08
 
 var i = 0;
 var op;

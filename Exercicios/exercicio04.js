@@ -1,4 +1,4 @@
-EX 04
+//EX 04
 
 var idade = parseInt(prompt("digite a idade: "));
 if (idade >= 18){

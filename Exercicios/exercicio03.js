@@ -1,4 +1,4 @@
-EX 03
+//EX 03
 
 var idade = parseInt(prompt("digite a idade: "));
 var idias = idade * 365;

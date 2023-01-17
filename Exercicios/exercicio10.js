@@ -1,4 +1,4 @@
-EX 10
+//EX 10
 
 var n = parseInt(prompt("termo: "));
 var n1 = nt = 0;

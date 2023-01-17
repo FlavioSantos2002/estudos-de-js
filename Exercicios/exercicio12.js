@@ -1,4 +1,4 @@
-EX 12
+//EX 12
 
 var v1, v2, v3, max, med, min;
 var i = 0;

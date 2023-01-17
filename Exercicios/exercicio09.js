@@ -1,4 +1,4 @@
-EX 09
+//EX 09
 
 var c1 = c2 = c3 = c4 = n = b = 0, candidato;
 var i = 0;

@@ -1,4 +1,4 @@
-EX 05
+//EX 05
 
 var mes = parseInt(prompt("digite o mes"));
 switch(mes){

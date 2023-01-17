@@ -1,4 +1,4 @@
-EX 07
+//EX 07
 
 var v1 = parseInt(prompt("valor 1"));
 var v2 = parseInt(prompt("valor 2")); 

@@ -1,4 +1,4 @@
-EX 11
+//EX 11
 
 var i = par = impar = 0;
 var n;
