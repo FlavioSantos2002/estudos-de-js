@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(116, 211, 179);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1cm;
+}
+
+h1{
+    font-size: 1.5cm;
+    text-align: center;
+    color: rgb(234, 0, 255);
+}
+
+button{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 2.5cm;
+    width:  2.5cm;
+    background-color:blue;
+    border-color:rgb(171, 134, 134);
+    color:white;
+
+}
+
+h2{
+
+    font-size: 1.0cm;
+    text-align: center;
+    color: rgb(164, 73, 172);
+
+}
+
+h3{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p{
+    color: blueviolet;
+}
+
+ul{
+    color: brown;
+}
+li{
+    color: rgb(68, 141, 0);
+}

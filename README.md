@@ -1,2 +1,2 @@
-# exercicios-de-js
- arquivos txt do curso de java script
+# estudos-de-js
+ meus estudos de js
